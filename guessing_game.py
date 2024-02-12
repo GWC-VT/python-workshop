@@ -1,6 +1,6 @@
 # game that generates a random number and asks a user to guess it
 
-import random
+import random  # this statement is needed because we're using functions from the 'random' library
 
 print("I've chosen a number between zero and ten. Try to guess it!")
 number = random.randrange(11)    # generates a number between 0 and 10
