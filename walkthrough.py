@@ -63,13 +63,16 @@ def triangle():    # this alone does not run because we haven't called it
     for x in range(5):
         print("?" * x)
 
+
 triangle()    # this is the function call
 
 # now let's add parameters
 
+
 def triangle_params(num):
     for x in range(num):
         print("?" * x)
+
 
 # now when we call triangle_params, we can tell it how big to make the triangle
 
