@@ -41,7 +41,6 @@ while x < 3:
     x = x + 1
 
 # for loop with list
-# explain meaningful indentation
 
 for word in my_list:
     print(word)     # prints each word from the list on its own line
